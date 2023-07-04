@@ -1,0 +1,11 @@
+import Link from "next/link";
+
+export default function Aboutme(){
+    return(
+    <div>
+        <h1>About Me</h1>
+        <Link href="/">Home</Link>
+    </div>
+  
+    )
+}
